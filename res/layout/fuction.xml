@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/morefuction"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_lighton"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/morefunction_selector"
+        android:text="开灯" />
+
+    <Button
+        android:id="@+id/button_beebee"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_lightflash"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/morefunction_selector"
+        android:text="哔哔" />
+
+    <Button
+        android:id="@+id/button_remindclose"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_beebee"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/morefunction_selector"
+        android:text="开启关门提醒" />
+
+    <Button
+        android:id="@+id/button_savemode"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/morefunction_selector"
+        android:text="开启开门报警" />
+
+    <Button
+        android:id="@+id/button_lightflash"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_lighton"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/morefunction_selector"
+        android:text="闪灯" />
+
+</RelativeLayout>

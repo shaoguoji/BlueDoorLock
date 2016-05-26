@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="5dp"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_title"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:layout_alignBaseline="@+id/textView_title"
+        android:layout_alignBottom="@+id/textView_title"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mainbutton_selector"
+        android:text="   断开   "
+        android:textSize="16dp" />
+
+</RelativeLayout>

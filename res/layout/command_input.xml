@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:orientation="vertical" >
+
+    
+
+    <ListView
+        android:id="@+id/listView_command"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:divider="#a9a9a9"
+        android:listSelector="#696969"
+        android:layout_weight="16.84" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.27" >
+
+        <EditText
+            android:id="@+id/editText_command"
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:ems="10" 
+            android:hint="请输入指令"
+            android:padding="5dp"
+            android:textSize="18sp" 
+            android:background="@drawable/edit_selector"
+            />
+
+        <Button
+            android:id="@+id/button_sendcommand"
+            style="@style/style_send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sendbutton_selector"
+            android:layout_margin="2dp"
+            android:onClick="onSendClick"
+            android:text="发送" />
+    </LinearLayout>
+
+</LinearLayout>

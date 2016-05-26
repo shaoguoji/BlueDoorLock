@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back3"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_settime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.99"
+        android:background="@drawable/mainbutton_selector"
+        android:text="校准时间" />
+
+    <Button
+        android:id="@+id/button_setmindtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:background="@drawable/mainbutton_selector"
+        android:text="设置关门提醒时间" />
+
+    <Button
+        android:id="@+id/button_setalarmtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:background="@drawable/mainbutton_selector"
+        android:text="设置开门报警时间" />
+
+</LinearLayout>

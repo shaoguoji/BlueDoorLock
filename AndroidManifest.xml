@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.FFX.bluedoorlock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+     <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/msqq_lock"
+        android:label="@string/app_name"
+        android:theme="@style/titlestyle" >
+        <activity
+            android:name="com.FFX.bluedoorlock.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.FFX.bluedoorlock.SelectDevice"
+             	  android:label="@string/blank"></activity>
+        <activity android:name="com.FFX.bluedoorlock.MoreFucntion"></activity>
+         <activity android:name="com.FFX.bluedoorlock.TimeSet"
+              		android:label="@string/blank"></activity>
+         <activity android:name="com.FFX.bluedoorlock.CommandInput"></activity>
+        <service android:name="com.FFX.bluedoorlock.BluetoothService"></service>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#66cdaa">
+
+    <TextView
+        android:id="@+id/textView_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timePicker_start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/timePicker_start"
+        android:ems="1"
+        android:text="开始时间"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/textView_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/timePicker_stop"
+        android:ems="1"
+        android:text="结束时间"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timePicker_start"
+        android:layout_below="@+id/timePicker_start"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView_dev"
+        android:layout_width="match_parent"
+        android:layout_height="382dp"
+        android:layout_weight="1.14" 
+        android:divider="#a9a9a9"
+        android:listSelector="#696969">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/imageButton_scan"
+        style="@style/scan_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/button_type"
+        android:text="扫描设备" />
+
+</LinearLayout>

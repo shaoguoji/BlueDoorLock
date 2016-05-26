@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+        android:id="@+id/button_opstate"
+        android:orderInCategory="100"
+        android:title="获取门锁状态"/>
+	
+	<item
+        android:id="@+id/button_restate"
+        android:orderInCategory="100"
+        android:title="获取关门提醒状态"/>
+	
+	<item
+        android:id="@+id/button_alstate"
+        android:orderInCategory="100"
+        android:title="获取开门报警状态"/> 
+        
+	<item
+        android:id="@+id/change_name"
+        android:orderInCategory="100"
+        android:title="更改用户名"/> 
+	
+</menu>

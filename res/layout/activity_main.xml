@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.82"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_open"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.32"
+        android:background="@drawable/imgbutton_selector"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lock" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.06" >
+
+        <Button
+            android:id="@+id/button_scan"
+            android:layout_weight="1"
+            android:background="@drawable/mainactivitybutton_selector"
+            style="@style/main_button_style"
+            android:text="连接设备" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_weight="1"
+             android:background="@drawable/mainactivitybutton_selector"
+             style="@style/main_button_style"
+            android:text="指令输入" />
+
+        <Button
+            android:id="@+id/button_time"
+            android:layout_weight="1"
+             android:background="@drawable/mainactivitybutton_selector"
+            style="@style/main_button_style"
+            android:text="时间校正" />
+
+        <Button
+            android:id="@+id/button_more"
+            android:layout_weight="1"
+             android:background="@drawable/mainactivitybutton_selector"
+             style="@style/main_button_style"
+            android:text="更多功能" />
+    </LinearLayout>
+
+</LinearLayout>
